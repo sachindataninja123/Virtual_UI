@@ -1,0 +1,23 @@
+{
+  "name": "virtualui-lib",
+  "version": "1.0.0",
+  "description": "Virtual UI React Component Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Sachin",
+  "license": "ISC",
+  "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
